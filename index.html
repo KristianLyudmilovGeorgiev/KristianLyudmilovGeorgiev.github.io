@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Robotics Club - Home</title>
+    <script src="https://kit.fontawesome.com/a1ca2bd9b4.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+    <link rel="icon" type="image/x-icon" href="images/PGAZ Robotic Logo 2.jpg">
+
+</head>
+<body>
+    <button id="back-to-top-btn"><i class="fas fa-arrow-up"></i></button>
+    <!--nav bar-->
+    <header>
+        <h3 class="logo" style="font-family: 'Montserrat', sans-serif; font-weight: 400; font-size: 32px; color: #edf0f1;"><b>Клуб по Роботика ПГАЗ</b></h3>
+        <nav>
+            
+            <ul class="navLinks" id="Nav">
+                <i class="fa fa-times" onclick="hideMenu()"></i> 
+                <li><a href="index.html">Начало</a></li>
+                <li><a href="#">Състезания</a></li>
+                <li><a href="#Team">Отбори</a></li>
+            </ul>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+            
+        </nav>
+        <a class="buttonContact" href="#bottom"><button>Свържете се</button></a>
+    </header> 
+
+    <!--first banner section-->
+    <section class="tab">
+        <div class="text-box">
+            <h2><b>Добре дошли в сайта на клуба ни!</b></h2>
+            <p>Тук, в началната страница ще видите кратко описание на нашите дейности и занимания.</p>
+            <a href="https://pgaz.org/" class="visitS" target="_blank">Посетете училището</a>
+        </div>
+    </section>
+
+    <!--activites section-->
+    <section class="activities">
+        <h1>Дейности в клуба</h1>
+        <p>Tук ще видите кратко описание на това с какво се занимаваме.</p>
+
+        <div class="row">
+            <div class="activity-col">
+                <h3>Лего роботика</h3>
+                <p>Създаваме отбор, конструираме и програмираме роботи, които да изпълняват
+                    зададените мисии. С това ние участваме в националното състезание по роботика всяка година. Много предизвикателства, забавления и усяехи
+                    по пътя към призовите места.
+                </p>
+            </div>
+            <div class="activity-col">
+                <h3>Ардуино и микроконтролери</h3>
+                <p>Чували ли сте за Ардуино и Микробит? Ние със сигурност, защото имаме различни проекти, роботи и коли с тях. Имахме и възможността тази година да 
+                    участваме с Ардуино робот в състезанието по роботика. Работили сме с различни сензори, драйвъри, които допълнително разширяват възможностите на 
+                    микроконтролерите.
+                </p>
+            </div>
+            <div class="activity-col">
+                <h3>Водородни коли</h3>
+                <p>Няма как да пропуснем и новостите, свързани със задвижването с водород. Клубът ни разполага и с водородни коли, които се задвижват благодарение на водородни
+                    батерии и водородна клетка. Ако сте ентусиаст в тази област със сигурност тези неща са Ви ясни. Участваме и в състезание с водородни коли, на което също имаме
+                    опит.
+                </p>
+            </div>
+        </div>
+
+    </section>
+
+    <!--activities pictures section-->
+    <section class="gallery">
+        <h1>Галерия</h1>
+        <p>Тук може да видите снимки от клуба.</p>
+
+        <div class="row">
+            <div class="gallery-col">
+                <img src="images/legoSample.jpg">
+                <div class="layer">
+                    <h3>ЛЕГО РОБОТИКА</h3>
+                </div>
+            </div>
+            <div class="gallery-col">
+                <img src="images/microcontrollers.jpg">
+                <div class="layer">
+                    <h3>МИКРОКОНТРОЛЕРИ</h3>
+                </div>
+            </div>
+            <div class="gallery-col">
+                <img src="images/IMG_20220223_143049.jpg">
+                <div class="layer">
+                    <h3>ВОДОРОДНИ КОЛИ</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--teams-->
+    <div class="back">
+    <section class="teams" id="Team">
+ 
+        <h1 style="padding-bottom: 6px;">Отборите в състезанието по роботика</h1>
+        <p>Тук ще видите кратка информация за отборите в клуба, които участват в 
+            състезанието по Роботика.
+        </p>
+
+        <div class="row">
+            <div class="teams-col">
+                <img src="images/received_1204687333397179.jpeg" alt="FourBit">
+                <h3>Отбор FourBit</h3>
+                <p>Отбор с многогодишен опит в състезанието. Претърпял малко промени
+                    в състава си, но и днес продължава да участва. Тази година той избра
+                    да бъде с Ардуино за по-голямо предизвикателство.  
+                </p>
+            </div>
+            <div class="teams-col">
+                <img src="images/FB_IMG_1650882174706.jpg" alt="FourBit">
+                <h3>Отбор The Incredibles</h3>
+                <p>Отбор, участващ за първа година в състезанието. Наистина 
+                    интересна, но доста уникална група. За сега се представят добре,
+                    но дали ще вземат първото място в девизията на новите - определено.
+                </p>
+            </div>
+            <div class="teams-col">
+                <img src="images/IMG_20220415_162431.jpg" alt="FourBit">
+                <h3>Отбор RoboPro</h3>
+                <p>Отбор, участващ вече втора година в състезанието. Членовете му
+                    се допълват - има както хора, които се занимават с програмиране, така
+                    и с конструкция, и описване на дейностите на отбора. Как можем да 
+                    ги опишем с две думи - добра комбинация. 
+                </p>
+            </div>
+        </div>
+        
+
+    </section>
+    </div>
+
+    <!--final section, contact and copyright included-->
+    <section class="contact" id="bottom">
+        <h1>Имате въпроси или се интересувате от клуба?</h1>
+        <a href="mailto: @pgazroboticsvd.com" class="visitS">Свържете се сега</a>
+    </section>
+
+    <section class="footer">
+        <h4>За нас</h4>
+        <p>Повече може да видите и в другите социални мрежи.</p>
+        <div class="icons">
+            <i class="fa fa-youtube"></i>
+            <i class="fa fa-phone"></i>
+        </div>
+        <p>Направено с <i class="fa fa-heart"></i> от Кристиан,
+        горд член на клуба по Роботика.</p>
+    </section>
+
+    <div class="end">
+        PGAZ Robotics Club <i class="fa fa-copyright"></i>
+    </div>
+    
+    <script>
+        var navLinks = document.getElementById("Nav");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+
+        const backTopButton = document.querySelector("#back-to-top-btn");
+
+        window.addEventListener("scroll", scrollFunction);
+
+        function scrollFunction(){
+            if (window.pageYOffset > 450){
+                if(!backTopButton.classList.contains("btnEntrance")){
+                    backTopButton.classList.remove("btnExit");
+                    backTopButton.classList.add("btnEntrance");
+                    backTopButton.style.display = "block";
+                }
+            } 
+            else {
+                if (backTopButton.classList.contains("btnEntrance")){
+                    backTopButton.classList.remove("btnEntrance");
+                    backTopButton.classList.add("btnExit");
+                    setTimeout(function() {
+                        backTopButton.style.display = "none";
+                    }, 250);
+                }
+            }
+        }
+
+        backTopButton.addEventListener("click", backToTop);
+
+        function backToTop(){
+            window.scrollTo(0, 0);
+        }
+
+    </script>
+
+</body>
+</html>
